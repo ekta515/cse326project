@@ -1,0 +1,133 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+.navbar-brand{
+	font-family: 'Fredericka the Great', cursive;
+	font-size: 2rem;
+	line-height: 1.6;
+	display: flex;
+	
+	
+}
+.nav-item{
+	padding-left: 22px;
+}
+
+.sidenav {
+  height: 100%;
+  margin-top: 65px;
+  width: 160px; 
+  position: fixed; 
+   z-index: 0;
+  top: 0; 
+  left: 0;
+  background-color: #111; /
+  overflow-x: hidden; 
+  padding-top: 20px;
+}
+
+/* The navigation menu links */
+.sidenav a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+}
+
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.sidenav span
+{
+	font-weight: bold;
+	color: white;
+   font-size: 20px;
+}
+.sidenav li a
+{
+	font-size: 15px;
+}
+.main {
+  margin-left: 160px; 
+  padding: 0px 10px;
+}
+
+
+
+.rowsetting p{
+	padding: 10px;
+	color: #6c757d;
+}
+.rowsetting h2{
+	padding-top: 20px;
+	font-weight: bold;
+	font-size: 30px;
+}
+.headerset{
+	padding-top: 100px;
+	box-sizing: border-box;
+}
+
+.imgsetting{
+
+	border-radius: 100%;
+	height: 100px;
+	width: 100px;
+}
+
+.fa-html5
+{
+margin-top: 20px;
+}
+.fa-book{
+	margin-top: 10px;
+	margin-right: 10px;
+}
+
+.fa-desktop
+{
+margin-top: 24px;
+}
+
+.fa-css3
+{
+margin-top: 23px;
+}
+
+ .footer {
+      color:#black; 
+      color: white;
+      
+     z-index: 2;
+     height: 30%;
+     position: relative;
+
+    }
+    .footer p{
+    	font-size: 10px;
+    	
+
+
+    }
+    .footer-content{
+    	padding-left: 100px;
+    }
+    .learning{
+    	color: aqua;
+    	font-family: 'Fredericka the Great', cursive;
+    }
+    .footer a{
+    	text-decoration: none;
+    	color: white;
+    }
+
+/* On smaller screens, where height is less than 450px, change the style of the sidebar (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
